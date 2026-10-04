@@ -3,7 +3,7 @@ ARG version
 FROM almalinux:${version:-8}  
 ARG NAME="Manoj" \
     PROFESSION="DevSecOPS Engineer"\
-    COMPANY="BenditoSoftTech PvtLtd"  
+    COMPANY="BenditoSoftTech Pvt Ltd"
 RUN echo "My Name is ${NAME}, version is ${version}"
 CMD ["sleep","200"]
 
